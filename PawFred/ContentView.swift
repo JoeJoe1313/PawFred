@@ -18,9 +18,9 @@ struct ContentView: View {
                 .font(.title)
                 .fontWeight(.bold)
                 .foregroundColor(Color(hue: 0.05, saturation: 0.653, brightness: 0.966))
-//            Button(/*@START_MENU_TOKEN@*/"Button"/*@END_MENU_TOKEN@*/) {
-//                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-//            }
+            Button("Test Button") {
+                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+            }
         }
         .padding()
     }
