@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2D6C85C2C47254000E45A02 /* PawFredApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D6C85B2C47254000E45A02 /* PawFredApp.swift */; };
+		C2D6C85E2C47254000E45A02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D6C85D2C47254000E45A02 /* ContentView.swift */; };
+		C2D6C8602C47254100E45A02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D6C85F2C47254100E45A02 /* Assets.xcassets */; };
+		C2D6C8632C47254100E45A02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D6C8622C47254100E45A02 /* Preview Assets.xcassets */; };
+		C2D6C86D2C47254100E45A02 /* PawFredTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D6C86C2C47254100E45A02 /* PawFredTests.swift */; };
+		C2D6C8772C47254100E45A02 /* PawFredUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D6C8762C47254100E45A02 /* PawFredUITests.swift */; };
+		C2D6C8792C47254100E45A02 /* PawFredUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D6C8782C47254100E45A02 /* PawFredUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2D6C8692C47254100E45A02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2D6C8502C47254000E45A02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2D6C8572C47254000E45A02;
+			remoteInfo = PawFred;
+		};
+		C2D6C8732C47254100E45A02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2D6C8502C47254000E45A02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2D6C8572C47254000E45A02;
+			remoteInfo = PawFred;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2D6C8582C47254000E45A02 /* PawFred.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PawFred.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D6C85B2C47254000E45A02 /* PawFredApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawFredApp.swift; sourceTree = "<group>"; };
+		C2D6C85D2C47254000E45A02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C2D6C85F2C47254100E45A02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2D6C8622C47254100E45A02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2D6C8682C47254100E45A02 /* PawFredTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PawFredTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D6C86C2C47254100E45A02 /* PawFredTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawFredTests.swift; sourceTree = "<group>"; };
+		C2D6C8722C47254100E45A02 /* PawFredUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PawFredUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D6C8762C47254100E45A02 /* PawFredUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawFredUITests.swift; sourceTree = "<group>"; };
+		C2D6C8782C47254100E45A02 /* PawFredUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawFredUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2D6C8552C47254000E45A02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D6C8652C47254100E45A02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D6C86F2C47254100E45A02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2D6C84F2C47254000E45A02 = {
+			isa = PBXGroup;
+			children = (
+				C2D6C85A2C47254000E45A02 /* PawFred */,
+				C2D6C86B2C47254100E45A02 /* PawFredTests */,
+				C2D6C8752C47254100E45A02 /* PawFredUITests */,
+				C2D6C8592C47254000E45A02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2D6C8592C47254000E45A02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2D6C8582C47254000E45A02 /* PawFred.app */,
+				C2D6C8682C47254100E45A02 /* PawFredTests.xctest */,
+				C2D6C8722C47254100E45A02 /* PawFredUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2D6C85A2C47254000E45A02 /* PawFred */ = {
+			isa = PBXGroup;
+			children = (
+				C2D6C85B2C47254000E45A02 /* PawFredApp.swift */,
+				C2D6C85D2C47254000E45A02 /* ContentView.swift */,
+				C2D6C85F2C47254100E45A02 /* Assets.xcassets */,
+				C2D6C8612C47254100E45A02 /* Preview Content */,
+			);
+			path = PawFred;
+			sourceTree = "<group>";
+		};
+		C2D6C8612C47254100E45A02 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C2D6C8622C47254100E45A02 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C2D6C86B2C47254100E45A02 /* PawFredTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2D6C86C2C47254100E45A02 /* PawFredTests.swift */,
+			);
+			path = PawFredTests;
+			sourceTree = "<group>";
+		};
+		C2D6C8752C47254100E45A02 /* PawFredUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2D6C8762C47254100E45A02 /* PawFredUITests.swift */,
+				C2D6C8782C47254100E45A02 /* PawFredUITestsLaunchTests.swift */,
+			);
+			path = PawFredUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2D6C8572C47254000E45A02 /* PawFred */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2D6C87C2C47254100E45A02 /* Build configuration list for PBXNativeTarget "PawFred" */;
+			buildPhases = (
+				C2D6C8542C47254000E45A02 /* Sources */,
+				C2D6C8552C47254000E45A02 /* Frameworks */,
+				C2D6C8562C47254000E45A02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PawFred;
+			productName = PawFred;
+			productReference = C2D6C8582C47254000E45A02 /* PawFred.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2D6C8672C47254100E45A02 /* PawFredTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2D6C87F2C47254100E45A02 /* Build configuration list for PBXNativeTarget "PawFredTests" */;
+			buildPhases = (
+				C2D6C8642C47254100E45A02 /* Sources */,
+				C2D6C8652C47254100E45A02 /* Frameworks */,
+				C2D6C8662C47254100E45A02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2D6C86A2C47254100E45A02 /* PBXTargetDependency */,
+			);
+			name = PawFredTests;
+			productName = PawFredTests;
+			productReference = C2D6C8682C47254100E45A02 /* PawFredTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2D6C8712C47254100E45A02 /* PawFredUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2D6C8822C47254100E45A02 /* Build configuration list for PBXNativeTarget "PawFredUITests" */;
+			buildPhases = (
+				C2D6C86E2C47254100E45A02 /* Sources */,
+				C2D6C86F2C47254100E45A02 /* Frameworks */,
+				C2D6C8702C47254100E45A02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2D6C8742C47254100E45A02 /* PBXTargetDependency */,
+			);
+			name = PawFredUITests;
+			productName = PawFredUITests;
+			productReference = C2D6C8722C47254100E45A02 /* PawFredUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2D6C8502C47254000E45A02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C2D6C8572C47254000E45A02 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C2D6C8672C47254100E45A02 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C2D6C8572C47254000E45A02;
+					};
+					C2D6C8712C47254100E45A02 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C2D6C8572C47254000E45A02;
+					};
+				};
+			};
+			buildConfigurationList = C2D6C8532C47254000E45A02 /* Build configuration list for PBXProject "PawFred" */;
+			compatibilityVersion = "Xcode 15.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2D6C84F2C47254000E45A02;
+			productRefGroup = C2D6C8592C47254000E45A02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2D6C8572C47254000E45A02 /* PawFred */,
+				C2D6C8672C47254100E45A02 /* PawFredTests */,
+				C2D6C8712C47254100E45A02 /* PawFredUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2D6C8562C47254000E45A02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D6C8632C47254100E45A02 /* Preview Assets.xcassets in Resources */,
+				C2D6C8602C47254100E45A02 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D6C8662C47254100E45A02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D6C8702C47254100E45A02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2D6C8542C47254000E45A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D6C85E2C47254000E45A02 /* ContentView.swift in Sources */,
+				C2D6C85C2C47254000E45A02 /* PawFredApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D6C8642C47254100E45A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D6C86D2C47254100E45A02 /* PawFredTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D6C86E2C47254100E45A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D6C8792C47254100E45A02 /* PawFredUITestsLaunchTests.swift in Sources */,
+				C2D6C8772C47254100E45A02 /* PawFredUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2D6C86A2C47254100E45A02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2D6C8572C47254000E45A02 /* PawFred */;
+			targetProxy = C2D6C8692C47254100E45A02 /* PBXContainerItemProxy */;
+		};
+		C2D6C8742C47254100E45A02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2D6C8572C47254000E45A02 /* PawFred */;
+			targetProxy = C2D6C8732C47254100E45A02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C2D6C87A2C47254100E45A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2D6C87B2C47254100E45A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2D6C87D2C47254100E45A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PawFred/Preview Content\"";
+				DEVELOPMENT_TEAM = MHKLLWN2V4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jolev.PawFred;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2D6C87E2C47254100E45A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PawFred/Preview Content\"";
+				DEVELOPMENT_TEAM = MHKLLWN2V4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jolev.PawFred;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2D6C8802C47254100E45A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MHKLLWN2V4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jolev.PawFredTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PawFred.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PawFred";
+			};
+			name = Debug;
+		};
+		C2D6C8812C47254100E45A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MHKLLWN2V4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jolev.PawFredTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PawFred.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PawFred";
+			};
+			name = Release;
+		};
+		C2D6C8832C47254100E45A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MHKLLWN2V4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jolev.PawFredUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PawFred;
+			};
+			name = Debug;
+		};
+		C2D6C8842C47254100E45A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MHKLLWN2V4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jolev.PawFredUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PawFred;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2D6C8532C47254000E45A02 /* Build configuration list for PBXProject "PawFred" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D6C87A2C47254100E45A02 /* Debug */,
+				C2D6C87B2C47254100E45A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2D6C87C2C47254100E45A02 /* Build configuration list for PBXNativeTarget "PawFred" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D6C87D2C47254100E45A02 /* Debug */,
+				C2D6C87E2C47254100E45A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2D6C87F2C47254100E45A02 /* Build configuration list for PBXNativeTarget "PawFredTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D6C8802C47254100E45A02 /* Debug */,
+				C2D6C8812C47254100E45A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2D6C8822C47254100E45A02 /* Build configuration list for PBXNativeTarget "PawFredUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D6C8832C47254100E45A02 /* Debug */,
+				C2D6C8842C47254100E45A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2D6C8502C47254000E45A02 /* Project object */;
+}
