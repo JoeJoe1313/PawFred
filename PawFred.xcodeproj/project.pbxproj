@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C25499892C9C7EB200E51592 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25499882C9C7EAE00E51592 /* PersistenceController.swift */; };
+		C289D9552C8B4DFE009901F1 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C289D9542C8B4DFE009901F1 /* Pet.swift */; };
+		C289D9572C8B4E32009901F1 /* PetProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C289D9562C8B4E32009901F1 /* PetProfileView.swift */; };
+		C289D9592C8B4E5F009901F1 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C289D9582C8B4E5F009901F1 /* ImagePicker.swift */; };
 		C2D6C85C2C47254000E45A02 /* PawFredApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D6C85B2C47254000E45A02 /* PawFredApp.swift */; };
 		C2D6C85E2C47254000E45A02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D6C85D2C47254000E45A02 /* ContentView.swift */; };
 		C2D6C8602C47254100E45A02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D6C85F2C47254100E45A02 /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C25499882C9C7EAE00E51592 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		C289D9542C8B4DFE009901F1 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		C289D9562C8B4E32009901F1 /* PetProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetProfileView.swift; sourceTree = "<group>"; };
+		C289D9582C8B4E5F009901F1 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		C2D6C8582C47254000E45A02 /* PawFred.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PawFred.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D6C85B2C47254000E45A02 /* PawFredApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawFredApp.swift; sourceTree = "<group>"; };
 		C2D6C85D2C47254000E45A02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,10 +102,14 @@
 		C2D6C85A2C47254000E45A02 /* PawFred */ = {
 			isa = PBXGroup;
 			children = (
+				C25499882C9C7EAE00E51592 /* PersistenceController.swift */,
 				C2D6C85B2C47254000E45A02 /* PawFredApp.swift */,
 				C2D6C85D2C47254000E45A02 /* ContentView.swift */,
 				C2D6C85F2C47254100E45A02 /* Assets.xcassets */,
 				C2D6C8612C47254100E45A02 /* Preview Content */,
+				C289D9542C8B4DFE009901F1 /* Pet.swift */,
+				C289D9562C8B4E32009901F1 /* PetProfileView.swift */,
+				C289D9582C8B4E5F009901F1 /* ImagePicker.swift */,
 			);
 			path = PawFred;
 			sourceTree = "<group>";
@@ -257,6 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C289D9572C8B4E32009901F1 /* PetProfileView.swift in Sources */,
+				C289D9552C8B4DFE009901F1 /* Pet.swift in Sources */,
+				C289D9592C8B4E5F009901F1 /* ImagePicker.swift in Sources */,
+				C25499892C9C7EB200E51592 /* PersistenceController.swift in Sources */,
 				C2D6C85E2C47254000E45A02 /* ContentView.swift in Sources */,
 				C2D6C85C2C47254000E45A02 /* PawFredApp.swift in Sources */,
 			);
