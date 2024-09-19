@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C25499892C9C7EB200E51592 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25499882C9C7EAE00E51592 /* PersistenceController.swift */; };
+		C25499912C9C817600E51592 /* PawFred.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C254998F2C9C817600E51592 /* PawFred.xcdatamodeld */; };
 		C289D9552C8B4DFE009901F1 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C289D9542C8B4DFE009901F1 /* Pet.swift */; };
 		C289D9572C8B4E32009901F1 /* PetProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C289D9562C8B4E32009901F1 /* PetProfileView.swift */; };
 		C289D9592C8B4E5F009901F1 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C289D9582C8B4E5F009901F1 /* ImagePicker.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		C25499882C9C7EAE00E51592 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		C25499902C9C817600E51592 /* PawFred.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PawFred.xcdatamodel; sourceTree = "<group>"; };
 		C289D9542C8B4DFE009901F1 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 		C289D9562C8B4E32009901F1 /* PetProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetProfileView.swift; sourceTree = "<group>"; };
 		C289D9582C8B4E5F009901F1 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		C2D6C84F2C47254000E45A02 = {
 			isa = PBXGroup;
 			children = (
+				C254998F2C9C817600E51592 /* PawFred.xcdatamodeld */,
 				C2D6C85A2C47254000E45A02 /* PawFred */,
 				C2D6C86B2C47254100E45A02 /* PawFredTests */,
 				C2D6C8752C47254100E45A02 /* PawFredUITests */,
@@ -271,6 +274,7 @@
 			files = (
 				C289D9572C8B4E32009901F1 /* PetProfileView.swift in Sources */,
 				C289D9552C8B4DFE009901F1 /* Pet.swift in Sources */,
+				C25499912C9C817600E51592 /* PawFred.xcdatamodeld in Sources */,
 				C289D9592C8B4E5F009901F1 /* ImagePicker.swift in Sources */,
 				C25499892C9C7EB200E51592 /* PersistenceController.swift in Sources */,
 				C2D6C85E2C47254000E45A02 /* ContentView.swift in Sources */,
@@ -600,6 +604,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C254998F2C9C817600E51592 /* PawFred.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C25499902C9C817600E51592 /* PawFred.xcdatamodel */,
+			);
+			currentVersion = C25499902C9C817600E51592 /* PawFred.xcdatamodel */;
+			path = PawFred.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C2D6C8502C47254000E45A02 /* Project object */;
 }

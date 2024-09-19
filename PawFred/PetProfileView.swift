@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import CoreData
 
 struct PetProfileView: View {
     @State private var petName: String = ""
@@ -14,6 +15,8 @@ struct PetProfileView: View {
     @State private var petWeight: String = ""
     @State private var petImage: UIImage? = nil
     @State private var isImagePickerPresented: Bool = false
+    
+    @Environment(\.managedObjectContext) private var viewContext // Get the Core Data context
 
     var body: some View {
         VStack {
@@ -35,7 +38,8 @@ struct PetProfileView: View {
             HStack {
                 Text("Age: \(petAge)")
                 Stepper("", value: $petAge, in: 1...30)
-            }.padding()
+            }
+            .padding()
 
             // Pet Weight Input
             TextField("Pet Weight (kg)", text: $petWeight)
@@ -43,7 +47,7 @@ struct PetProfileView: View {
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding()
 
-            // Pet Image
+            // Pet Image (if available)
             if let image = petImage {
                 Image(uiImage: image)
                     .resizable()
@@ -73,21 +77,30 @@ struct PetProfileView: View {
         }
     }
 
-    // Save Pet Profile
+    // Save Pet Profile to Core Data
     func savePetProfile() {
-        // You can convert weight to Double here
-        let weight = Double(petWeight) ?? 0.0
-
-        let newPet = Pet(
-            name: petName,
-            breed: petBreed,
-            age: petAge,
-            weight: weight,
-            photo: petImage?.jpegData(compressionQuality: 0.8)
-        )
-
-        // Save the pet profile (this could be saved to local storage)
-        print("Pet saved: \(newPet)")
+        // Create a new Pet entity in Core Data
+        let newPet = PetEntity(context: viewContext)  // Ensure `PetEntity` is correctly defined in Core Data
+        
+        // Validate and assign values to the Core Data entity
+        newPet.name = petName.isEmpty ? nil : petName  // Handle empty string for optional name
+        newPet.breed = petBreed.isEmpty ? nil : petBreed
+        newPet.age = Int16(petAge)
+        newPet.weight = Double(petWeight) ?? 0.0  // Ensure weight is properly converted
+        
+        // Handle image data
+        if let petImage = petImage, let imageData = petImage.jpegData(compressionQuality: 0.8) {
+            newPet.photo = imageData
+        } else {
+            print("No image or failed to convert UIImage to Data.")
+        }
+        
+        // Save the context
+        do {
+            try viewContext.save()  // Save changes to Core Data
+            print("Pet saved successfully!")
+        } catch {
+            print("Failed to save pet: \(error.localizedDescription)")  // Better error description
+        }
     }
 }
-
